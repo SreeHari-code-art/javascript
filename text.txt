@@ -21,3 +21,15 @@ function oddOReven(){
     }
 }
 oddOReven();
+
+// with paramiter
+function oddOReven(number){
+    let ans =null;
+    ans = number % 2;
+    if (ans == 0){
+        console.log("even");
+    }else{
+        console.log("odd");
+    }
+}
+oddOReven(45);
