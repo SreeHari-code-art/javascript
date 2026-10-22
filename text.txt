@@ -1,0 +1,8 @@
+let number = 78;
+console.log(number);
+let ans = number % 2;
+console.log(ans);
+if (ans == 0){
+    console.log("even");
+}else{
+    console.log("odd");}
